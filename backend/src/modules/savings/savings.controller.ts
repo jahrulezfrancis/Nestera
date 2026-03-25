@@ -6,6 +6,7 @@ import {
   HttpCode,
   HttpStatus,
   UseGuards,
+  UseInterceptors,
   Param,
 } from '@nestjs/common';
 import { CacheInterceptor, CacheKey, CacheTTL } from '@nestjs/cache-manager';
